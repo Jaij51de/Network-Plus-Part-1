@@ -45,7 +45,14 @@ You will apply IP addressing to the PCs and switches to enable communication bet
 - Visually inspect network connections  
 
 **Screenshot Placeholder:**  
-`!Network Topology`
+<img width="975" height="173" alt="image" src="https://github.com/user-attachments/assets/a003b85b-84b0-43d4-b2af-828df2d72517" />
+<img width="975" height="369" alt="image" src="https://github.com/user-attachments/assets/7b8f2b32-6a35-4d5b-bc25-61d25ae31d4f" />
+<img width="975" height="793" alt="image" src="https://github.com/user-attachments/assets/c5485e85-1194-4f5c-b3dd-9d095d3e9953" />
+<img width="1075" height="725" alt="image" src="https://github.com/user-attachments/assets/77ef5169-91ed-493c-b08e-1a81c24978fc" />
+
+
+
+
 
 ---
 
@@ -100,7 +107,7 @@ You will apply IP addressing to the PCs and switches to enable communication bet
 ## Reflection Questions
 
 1. **Why are some FastEthernet ports on the switches up and others down?**  
-   _Answer:_  
+   i notice the method on every one of the interfaces that where down was "unset" , i researched it but couldint find out what it meant. 
 
 2. **What could prevent a ping from being sent between the PCs?**  
-   _Answer:_  
+   Incorrect ip configuration, or wrong addrfess being used. 
