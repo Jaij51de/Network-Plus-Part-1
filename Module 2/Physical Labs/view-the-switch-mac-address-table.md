@@ -29,11 +29,13 @@
 
 ### Step 2: Configure PC hosts
 
-**Screenshot Placeholder:**  
+<img width="975" height="173" alt="image" src="https://github.com/user-attachments/assets/2e9e5a06-4205-45d8-b92a-93a9d48a472c" />
+
 `![PC Configuration](path/to/sStep 3: Initialize and reload switches as necessary
 
 **Screenshot Placeholder:**  
-`!Switch Initialization`
+<img width="975" height="369" alt="image" src="https://github.com/user-attachments/assets/7b563a55-a3c7-4155-9d90-ffa5031ac492" />
+
 
 ---
 
@@ -51,7 +53,7 @@
 ### Step 1: Record network device MAC addresses
 
 1. **PC-A MAC Address:**  
-   _Answer:_  
+  
 
 2. **PC-B MAC Address:**  
    _Answer:_  
