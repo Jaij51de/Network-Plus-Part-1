@@ -25,36 +25,36 @@
 ### Step 2: Examine the network configuration of the PC
 
 **Screenshot Placeholder:**  
-`!ipconfig output`
+<img width="975" height="715" alt="image" src="https://github.com/user-attachments/assets/e272c418-dd01-48f9-bc8b-95a5594c32b6" />
 
 ---
 
 ### Step 3: Examine Ethernet frames in a Wireshark capture
 
 **Screenshot Placeholder:**  
-`![ARP request frame](path/to/screenshot`
+<img width="975" height="697" alt="image" src="https://github.com/user-attachments/assets/59b387e0-9509-449d-82cf-9b8d1ce9d260" />
+
 
 ---
 
 ### Step 4: Examine the Ethernet II header contents of an ARP request
 
 1. **What is significant about the contents of the destination address field?**  
-   _Answer:_  
-
+   There are two types, 12 digits and the one in the last is the same address of the pc being used in the screenshot 
 2. **Why does the PC send out a broadcast ARP prior to sending the first ping request?**  
-   _Answer:_  
+  The PC only knows the IP address, ARP (address resolution protocol) is a protocol used for determining the MAC address associated with an IP address and the frame needs that MAC address before it can travel.
 
 3. **What is the MAC address of the source in the first frame?**  
-   _Answer:_  
+   Dell_50:fd:c8 
 
 4. **What is the Vendor ID (OUI) of the Source NIC in the ARP reply?**  
-   _Answer:_  
+Netgear (30:46:91:99:c5:72)
 
 5. **What portion of the MAC address is the OUI?**  
-   _Answer:_  
+   _The source address
 
 6. **What is the NIC serial number of the source?**  
-   _Answer:_  
+   F0-1F-AF-50-FD-C8
 
 ---
 
