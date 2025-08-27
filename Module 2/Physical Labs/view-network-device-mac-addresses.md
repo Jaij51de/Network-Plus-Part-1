@@ -21,21 +21,22 @@
 ### Step 1: Cable the network as shown in the topology
 
 **Screenshot Placeholder:**  
-`!Network Topology`
+<img width="830" height="747" alt="image" src="https://github.com/user-attachments/assets/285b0b7b-8fb3-4099-b404-f6de457ea24e" />
+
 
 ---
 
 ### Step 2: Configure the IPv4 address for the PC
 
 - **Were the pings successful? Explain.**  
-  _Answer:_  
+
 
 ---
 
 ### Step 3: Configure basic settings for the switch
 
 **Screenshot Placeholder:**  
-`![Switch Configuration](path/to/screenshoterify network connectivity
+`<img width="975" height="448" alt="image" src="https://github.com/user-attachments/assets/4c5e5e56-01b6-4a3e-b255-3c856583dd70" />
 
 - **Were the pings successful?**  
   _Answer:_  
@@ -47,58 +48,61 @@
 ### Step 5: Analyze the MAC address for the PC-A NIC
 
 1. **What is the OUI portion of the MAC address for this device?**  
-   _Answer:_  
+5C-26-0A
 
 2. **What is the serial number portion of the MAC address for this device?**  
-   _Answer:_  
+   24-2A-60  
 
 3. **Using the example above, find the name of the vendor that manufactured this NIC.**  
-   _Answer:_  
+ 00-15-5D-
 
 4. **Identify the OUI portion of the MAC address for the NIC of PC-A.**  
-   _Answer:_  
+00-15-5D-
 
 5. **Identify the serial number portion of the MAC address for the NIC of PC-A.**  
-   _Answer:_  
+  1A-99-F2
 
 6. **Identify the name of the vendor that manufactured the NIC of PC-A.**  
-   _Answer:_  
+   Microsoft
 
 ---
 
 ### Step 6: Analyze the MAC address for the S1 VLAN 1 interface
 
 1. **What is the MAC address for VLAN 1 on S1?**  
-   _Answer:_  
+  172.26.0.1
 
 2. **What is the MAC serial number for VLAN 1?**  
-   _Answer:_  
+   7D-02-09  
 
 3. **What does BIA stand for?**  
-   _Answer:_  
+   Burned in address
 
 4. **Why does the output show the same MAC address twice?**  
-   _Answer:_  
+  Multiple connection types from the same device  
 
 ---
 
 ### Step 7: View the MAC addresses on the switch
 
 1. **What Layer 2 addresses are displayed on S1?**  
-   _Answer:_  
+  ff-ff-ff-ff-ff-ff
+01-00-5e-00-00-02
+01-00-5e-00-00-c8
+
 
 2. **What Layer 3 addresses are displayed on S1?**  
-   _Answer:_  
+   172.19.255.255
+224.0.0.2
 
-3. **Did the switch display the MAC address of PC-A? If yes, what port was it on?**  
-   _Answer:_  
+
 
 ---
 
 ## Reflection Questions
 
 1. **Can you have broadcasts at the Layer 2 level? If so, what would the MAC address be?**  
-   _Answer:_  
+  Yes FF:FF:FF:FF:FF:FF
 
 2. **Why would you need to know the MAC address of a device?**  
-   _Answer:_  
+  To ensure data packets are being sent to the right place/ device
