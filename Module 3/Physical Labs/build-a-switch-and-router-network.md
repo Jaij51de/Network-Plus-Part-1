@@ -10,7 +10,7 @@
 | R1     | G0/0/1        | 192.168.1.1 /24             | N/A                 |
 |        |               | 2001:db8:acad:1::1 /64      |                     |
 |        |               | fe80::1                     |                     |
-| ISP    | G0/0/0        | 64.100.0.1 /30              | N/A                 |
+| ISP    | G0/0/0        | 64.100.0.1 /30              | N/A                 |s
 |        |               | 2001:db8:acad::1 /64        |                     |
 |        |               | fe80::1                     |                     |
 | ISP    | G0/0/1        | 209.165.200.225 /27         | N/A                 |
@@ -66,7 +66,7 @@
 ### Step 4: Configure R1, ISP, and S1 using provided initial configurations
 
 **Screenshot Placeholder:**  
-`<img width="439" height="27" alt="image" src="https://github.com/user-attachments/assets/d16d094d-a398-40c6-9753-d5b7a4d1bc88" />
+<img width="479" height="60" alt="image" src="https://github.com/user-attachments/assets/b55170fe-87f9-4dc8-93ef-c586b222da77" />
 
 
 ---
