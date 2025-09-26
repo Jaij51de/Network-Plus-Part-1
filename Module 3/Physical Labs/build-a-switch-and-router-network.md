@@ -66,14 +66,11 @@
 ### Step 4: Configure R1, ISP, and S1 using provided initial configurations
 
 **Screenshot Placeholder:**  
-`!Device Configuration`
+`<img width="439" height="27" alt="image" src="https://github.com/user-attachments/assets/d16d094d-a398-40c6-9753-d5b7a4d1bc88" />
+
 
 ---
 
-### Step 5: Configure IP host table on R1
-
-**Screenshot Placeholder:**  
-`!Host Table Configuration`
 
 ---
 
