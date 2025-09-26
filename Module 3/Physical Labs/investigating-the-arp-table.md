@@ -28,7 +28,8 @@ This lab will guide you through:
    ```
 3. Observe the output. You should see a list of IP addresses and their corresponding MAC addresses.
 
-![Insert Screenshot Here]()
+<img width="472" height="972" alt="image" src="https://github.com/user-attachments/assets/42b5e243-5648-44f6-9147-cfc236a5424a" />
+
 
 ## 🎯 Step 2: Identify a Target Device
 1. Choose another device on your network (e.g., phone, tablet, another PC).
@@ -42,7 +43,8 @@ This lab will guide you through:
     ```
 4. Run the `arp -a` command again to confirm the target device appears in the ARP table
 
-![Insert screenshot here]()
+<img width="515" height="993" alt="image" src="https://github.com/user-attachments/assets/74e2e9bc-5466-4359-8a65-7ad60b54f9c0" />
+
 
 ## 🧪 Step 3: Capture ARP Traffic with Wireshark
 
@@ -58,12 +60,17 @@ This lab will guide you through:
     ```
 5. Observe ARP request and reply packets in Wireshark 
 
-![Insert screenshot here]()
+<img width="801" height="589" alt="image" src="https://github.com/user-attachments/assets/0b7ad6ff-ff3e-4bc6-8b5e-b796e500254c" />
+
 
 ***
 
 ## 🧠 Reflection Questions
 1. What does the ARP table tell you about your local network?
+   it maps ip and mac addresses to a local network allowing devices to know where to send the data
 2. Why might an ARP entry be missing?
+    a device may be down or unreachable 
 3. What happens when you clear the ARP cache?
+ it forced devices to have to re discover the mac addresses for an ip address
 4. How does Wireshark help visualize Layer 2 communication?
+ wire shark captures the arp requests and replies , giving you a visual guid to the dynamic mapping process
