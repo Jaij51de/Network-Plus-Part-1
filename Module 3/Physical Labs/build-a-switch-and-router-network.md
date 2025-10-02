@@ -69,7 +69,8 @@
 <img width="479" height="60" alt="image" src="https://github.com/user-attachments/assets/b55170fe-87f9-4dc8-93ef-c586b222da77" />
 
 
----
+---<img width="975" height="641" alt="image" src="https://github.com/user-attachments/assets/8322de63-fcf8-4b32-80bf-2682224ce618" />
+
 
 
 ---
@@ -150,16 +151,15 @@
 ## Reflection Questions
 
 1. What could prevent ping or traceroute responses besides connectivity issues?  
-   _Answer:_  
+   firewalls  
 
 2. What does the ping response to a non-existent address like 209.165.200.227 indicate?  
-   _Answer:_  
-
+the device was unable to connect  with a host at that ip address , address is invalid
 3. What does the ping response to an unreachable network like 192.168.5.3 indicate?  
-   _Answer:_  
+desination host unreachable
 
 4. What is the default IPv4 TTL on Windows and Cisco devices?  
-   _Answer:_  
+   128 and 255
 
 5. What is the default IPv6 Hop Limit on Windows and Cisco devices?  
-   _Answer:_  
+64 and 128
