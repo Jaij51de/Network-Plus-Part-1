@@ -61,7 +61,8 @@ In this lab, you will configure IPv6 addresses on hosts and network devices. You
 
 **Question:**  
 - Which two multicast groups are assigned to interface G0/0/0?  
-  _Answer:_  
+<img width="224" height="60" alt="image" src="https://github.com/user-attachments/assets/04543b22-e260-4225-a6bd-4240027bf7bd" />
+
 
 ---
 
@@ -72,9 +73,9 @@ In this lab, you will configure IPv6 addresses on hosts and network devices. You
 
 **Questions:**  
 - Has an IPv6 unicast address been assigned to PC-B?  
-  _Answer:_  
+  no
 - Why did PC-B receive the Global Routing Prefix and Subnet ID from R1?  
-  _Answer:_  
+  <img width="972" height="580" alt="image" src="https://github.com/user-attachments/assets/7e4f8b2c-7528-43b8-b08a-a8eb41e4c575" />
 
 ---
 
@@ -107,10 +108,9 @@ In this lab, you will configure IPv6 addresses on hosts and network devices. You
 ## Reflection Questions
 
 1. Why can the same link-local address `fe80::1` be assigned to both Ethernet interfaces on R1?  
-   _Answer:_  
-
+   because link local packets never leave the local network 
 2. What is the Subnet ID of the IPv6 unicast address `2001:db8:acad::aaaa:1234/64`?  
-   _Answer:_  
+2001:db8:acad::/64
 
 ---
 
