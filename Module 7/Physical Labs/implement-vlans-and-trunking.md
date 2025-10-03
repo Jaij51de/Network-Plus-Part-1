@@ -38,7 +38,8 @@
 ### Step 1: Cable the network as shown in the topology
 
 **Screenshot Placeholder:**  
-`![NetworkTopology`
+`<img width="543" height="355" alt="image" src="https://github.com/user-attachments/assets/84635cbe-036f-4df9-ae74-f23c904957ac" />
+
 
 ---
 
@@ -94,15 +95,14 @@
 
 ### Step 2: Verify connectivity
 
-- **Can PC-A ping S1 VLAN 20?**  
-  _Answer:_  
+
 
 - **Were the pings from PC-B to S2 successful? Explain.**  
-  _Answer:_  
+  no because theyre on different VLANs and thre is no router
 
 ---
 
 ## Reflection
-
+it allows a single physical link to carry traffic from multiple VLANs making it more efficient, misconfigured trunking can lead to packet loss, network segment problems and reduced performane
 **Why is trunking important for VLAN communication across switches? What issues might arise if trunking is misconfigured?**  
-_Answer:_  
+
